@@ -1,0 +1,12 @@
+#This file lists the dependices for voice_pipeline(1)
+pip install sounddevice numpy
+#This file lists the dependices for the NoiseSupressionModule(2)
+pip install sounddevice numpy torch 
+#This file lists the dependices for the vad.py(3)
+pip install sounddevice numpy torch
+#This file lists the dependices for ASRModule(4)
+pip install sounddevice numpy torch torchaudio faster-whisper ctranslate2
+#This file lists the dependices for rag_huggingface.py(5) and rag_reasoning_layer.py(5)
+pip install langchain langchain-openai langchain-community faiss-cpu sentence-transformers openai
+#This file lists the dependices for tts_module.py(6)
+pip install edge-tts pygame
